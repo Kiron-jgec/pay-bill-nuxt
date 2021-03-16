@@ -1,0 +1,55 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,700&display=swap');
+
+
+$primary-color:#1365ff;
+$secendary-color: #ff7513;
+$background-above-color:rgb(255, 255, 255);
+$text-color:rgb(58, 58, 58);
+$input-border-color:rgb(202, 202, 202);
+$headingColor:red;
+$gray-background:#f0f0f0;
+
+// fonts
+$secendary-font:'Open Sans', sans-serif; 
+
+// padding 
+
+@mixin padding($top,$right,$bottom,$left) {
+    padding:$top $right $bottom $left;
+}
+
+// margin 
+
+
+
+@mixin margin($top,$right,$bottom,$left) {
+    margin:$top $right $bottom $left;
+}
+
+
+// all border 
+
+@mixin border($legth,$color,$type) {
+    border:$legth $color $type;
+}
+
+
+// spacific  border
+
+@mixin border-spacific($top,$right,$bottom,$left) {
+    border-radius:$top $right $bottom $left;
+}
+
+
+
+
+// border radious 
+
+@mixin border-radious($top,$right,$bottom,$left) {
+    border-radius:$top $right $bottom $left;
+}
+
